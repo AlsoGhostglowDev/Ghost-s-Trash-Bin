@@ -1,0 +1,2 @@
+Abbreviations: 
+  OC: OpenComputer
