@@ -109,7 +109,7 @@ The robot has the capability to fly, limited by it's variable, <kbd>flightHeight
 </details>
 
 > [!TIP]
-> If you want to use to compare a block infront of the robot and is on another slot (other than the selected), then I recommend using <kbd>compareTo</kbd> instead (to save lines by not using the <kbd>select</kbd> command). If the block is either above/below the robot, then use compare.
+> If you want to compare a block infront of the robot and is on another slot (other than the selected), then I recommend using <kbd>compareTo</kbd> instead (to save lines by not using the <kbd>select</kbd> command). If the block is either above/below the robot, then use compare.
 <details>
     <summary><kbd><kbd>inline</kbd> robot.compareTo(slot:number)</kbd></summary>
     Compares the block infront of the robot to the item on the slot passed. Returns true if the block compared is equal-to the item slot passed.   
