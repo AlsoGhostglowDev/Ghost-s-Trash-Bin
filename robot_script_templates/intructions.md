@@ -1,7 +1,8 @@
 # Intructions
 
 ## `ustairs.lua`
-**INFO**: The "u" in `ustairs` simply means "underground" as it specializes as a tool to make a 2x4x1 stair (going downwards) underground
+> [!NOTE] 
+> The "u" in `ustairs` simply means "underground" as it specializes as a tool to make a 2x4x1 stair (going downwards) underground
 
 - Firstly, place the robot on the very top-left corner of a 2x2 tunnel. <br>
 ![image](https://github.com/user-attachments/assets/4be99589-d6e4-4909-b6c7-d02fcea57457)
@@ -14,6 +15,6 @@
 - Press <kbd>CTRL + S</kbd> to save and press <kbd>CTRL + W</kbd> to go back to the terminal.
 - Type in <kbd>name.lua</kbd>. Replace the name with your own file name, then the robot should be run.
 
-**DISCLAIMER**:
-- Do not go on top or infront of the robot as it can break it's path.
-- Do not expect to robot to stop when hazards are near it.
+> [!WARNING]
+> - Do not go on top or infront of the robot as it can break it's path.
+> - Do not expect to robot to stop when hazards are near it.
