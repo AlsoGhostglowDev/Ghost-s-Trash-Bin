@@ -1,5 +1,4 @@
 local r = require 'robot'
-r.setLightColor(0x888888)
 
 local function loopFunc(f, n) 
     for i = 1, n do f() end
@@ -19,9 +18,7 @@ end
 
 main()
 
-local i = -1
-while true do
-    i = i + 1
+for i = -1, math.huge, 1 do
     if (i % 8 == 0) then
         r.turnRight()
         r.place()
