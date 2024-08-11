@@ -7,18 +7,30 @@ r.setLightColor(-1)
     width goes in the right-side of the robot,
     length goes in the front of the robot
 
-    height is only two which is the layer the robot is on and the layer 
+    height is by default 2 only two which is the layer the robot is on and the layer 
     ontop of the robot.
 ]]
 local width, length = 25, 25
+local height = 5
 local fixFloor = true
 
 local function mine()
     r.swing()
     r.swingUp()
     
-    if (not r.detectDown() and fixFloor) then
-        r.placeDown()
+    if height > 2 then
+        for i = 3, height do
+            r.down()
+            r.swing()
+        end
+
+        if (not r.detectDown() and fixFloor) then
+            r.placeDown()
+        end
+
+        for i = 3, height do
+            r.up()
+        end
     end
     r.forward()
 end
