@@ -2,12 +2,12 @@ local r = require 'robot'
 r.setLightColor(0x888888)
 
 local function loopFunc(f, n) 
-    for i = 1, n do f(i) end
+    for i = 1, n do f() end
 end
 
 local function main()
     r.turnRight()
-    loopFunc(function(_)
+    loopFunc(function()
         r.swing()
         r.swingDown()
         r.down()
