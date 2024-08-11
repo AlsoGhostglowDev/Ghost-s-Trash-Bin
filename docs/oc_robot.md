@@ -20,10 +20,10 @@ The robot can do some pretty complex movements with the available commands. e.g.
 ---
 
 **Hovering**<br>
-The robot has the capability to fly, limited by it's variable, <kbd>flightHeight</kbd>, which the default is 8 of. When on air, the robot can also go down a block when flying by using the <kbd>down()</kbd> and <kbd>up()</kbd> to go up one block. 
+The robot has the capability to fly, limited by it's variable, <kbd>flightHeight</kbd>, default being 8 blocks. The robot can also go up and down a block by using the <kbd>up()</kbd> and <kbd>down()</kbd> functions. 
 
 > [!NOTE]
-> If you want the robot to float when there's no blocks around, you'd need the floating upgrade.
+> If you want the robot to float when there're no blocks around, you'll need the floating upgrade.
 
 *(See [**General Commands: Flight-related commands**](https://github.com/AlsoGhostglowDev/Ghost-s-Trash-Bin/blob/main/docs/oc_robot.md#flight-related-commands))*
 
@@ -31,12 +31,13 @@ The robot has the capability to fly, limited by it's variable, <kbd>flightHeight
 ### Basic Movements
 <details>
     <summary><kbd>robot.forward()</kbd></summary>
-    This function simply moves the robot one block forward (if possible).
+    This function moves the robot forward.
+    **Returns**: `true` if the robot successfully moved, `nil` otherwise. If movement fails a secondary result will be returned describing why it failed, which will either be `impossible move`, `not enough energy` or the description of the obstacle as `robot.detect` would return.
 </details>
 
 <details>
     <summary><kbd>robot.back()</kbd></summary>
-    The inverse function of <kbd>robot.forward()</kbd>, the function instead moves the robot one block backwards (if possible).
+    Similarily to `robot.forward()`, but goes back.
 </details>
 
 <details>
@@ -57,13 +58,16 @@ The robot has the capability to fly, limited by it's variable, <kbd>flightHeight
 ### Flight-related commands
 <details>
     <summary><kbd>robot.up()</kbd></summary>
-    This function simply moves the robot one block up (if possible).
+    Similarily to `robot.forward()`, this function makes the robot go up.
 </details>
 
 <details>
     <summary><kbd>robot.down()</code></kbd></summary>
-    The inverse function of <kbd>robot.up</kbd>, the function instead moves the robot one block down (if possible).
+    Similarily to `robot.forward()`, this function makes the robot go down.
 </details>
+
+> [!NOTE]
+> I was too lazy to edit the bottom part so it might have grammar issues and spelling errors - Execute
 
 ---
 
