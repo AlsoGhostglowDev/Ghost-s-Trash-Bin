@@ -31,13 +31,13 @@ The robot has the capability to fly, limited by it's variable, <kbd>flightHeight
 ### Basic Movements
 <details>
     <summary><kbd>robot.forward()</kbd></summary>
-    This function moves the robot forward.
-    **Returns**: `true` if the robot successfully moved, `nil` otherwise. If movement fails a secondary result will be returned describing why it failed, which will either be `impossible move`, `not enough energy` or the description of the obstacle as `robot.detect` would return.
+    This function moves the robot forward. <br><br>
+    <b>Returns</b>: <kbd>true</kbd> if the robot successfully moved, <kbd>nil</kbd> otherwise. If movement fails a secondary result will be returned describing why it failed, which will either be <code>impossible move</code>, <code>not enough energy</code> or the description of the obstacle as <code>robot.detect</code> would return.
 </details>
 
 <details>
     <summary><kbd>robot.back()</kbd></summary>
-    Similarily to `robot.forward()`, but goes back.
+    Similarily to <code>robot.forward()</code>, but goes back.
 </details>
 
 <details>
@@ -58,12 +58,12 @@ The robot has the capability to fly, limited by it's variable, <kbd>flightHeight
 ### Flight-related commands
 <details>
     <summary><kbd>robot.up()</kbd></summary>
-    Similarily to `robot.forward()`, this function makes the robot go up.
+    Similarily to <code>robot.forward()</code>, this function makes the robot go up.
 </details>
 
 <details>
-    <summary><kbd>robot.down()</code></kbd></summary>
-    Similarily to `robot.forward()`, this function makes the robot go down.
+    <summary><kbd>robot.down()</kbd></summary>
+    Similarily to <code>robot.forward()</code>, this function makes the robot go down.
 </details>
 
 > [!NOTE]
