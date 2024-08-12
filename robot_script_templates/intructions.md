@@ -1,7 +1,6 @@
 # Intructions
 
 ## `ustairs.lua`
-> [!NOTE] 
 
 - Firstly, place the robot on the very top-left corner of a 2x2 tunnel. <br>
 ![image](https://github.com/user-attachments/assets/4be99589-d6e4-4909-b6c7-d02fcea57457)
