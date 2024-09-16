@@ -57,6 +57,23 @@ Sets the window border and header to a color of your choosing.
 - `setBorder`: Do you want to set the window border's color?
 
 ---
+
+**Editor Note:**
+```
+example(arg1: type, arg2: <type1. type2>) -> returns
+   ^                            ^
+ fname                  one of two or more
+
+Function description
+
+- `arg1`: Description
+- `arg2`: More description
+
+(Optional)
+**Example:**
+`example(true, ...)`
+```
+
 <sub><i>
 a wiki made by [GhostglowDev](https://github.com/AlsoGhostglowDev) <br>
 © 2024 [T-Bar](https://github.com/TBar09) and [GhostglowDev](https://github.com/AlsoGhostglowDev). All rights reserved. 
