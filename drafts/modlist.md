@@ -57,7 +57,7 @@
 - [**Create Contraption Terminals**](https://cdn.modrinth.com/data/gOPAFzp0/versions/Rdo5tUmb/createcontraptionterminals-1.20-1.2.0.jar) (1.2.0) <sub>(Tom's Simple Storage ⇔ Create)</sub>
 - [**CTOV - Create: Structures**](https://cdn.modrinth.com/data/l9fldtN4/versions/hwClzDIs/ctov-create-structures-1.0.jar) (1.0)
 - **Terralith Re:Stoned** (1.1) <sub>(Terralith ⇔ Create)</sub> <sub>(Server-side, Datapack, not needed)</sub>
-- [**Oculus Flywheel Compat**]() () <sub>(Oculus ⇔ Create)</sub>
+- [**Oculus Flywheel Compat**](https://cdn.modrinth.com/data/ndHYMY2K/versions/j26FjsSe/oculus-flywheel-compat-forge1.20.1%2B1.1.4.jar) (1.1.4) <sub>(Oculus ⇔ Create)</sub>
 - [**Simple Discord Link**](https://cdn.modrinth.com/data/Sh0YauEf/versions/gXgTfzl5/SimpleDiscordLink-Universal-3.2.3.jar) (3.2.3) <sub>(Discord ⇔ Minecraft)</sub>
 - [**Patchouli**](https://cdn.modrinth.com/data/nU0bVIaL/versions/8Qyw08ld/Patchouli-1.20.1-84.1-FORGE.jar) (84.1.0) <sub>(Guidebook ; Alex's Mobs, Palladin's Furniture, etc.)</sub>
 - [~~Mekanism X Create: Northstar~~](https://youtu.be/FqF9jCX8MT4?si=L6b8que-hDl-snqM) (Waiting for Poll)
